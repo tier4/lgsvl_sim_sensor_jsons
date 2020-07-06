@@ -1,0 +1,26 @@
+  {
+    "type": "Lidar",
+    "name": "Top Lidar",
+    "params": {
+      "LaserCount": 32,
+      "MinDistance": 0.5,
+      "MaxDistance": 100,
+      "RotationFrequency": 10,
+      "MeasurementsPerRotation": 360,
+      "FieldOfView": 40,
+      "CenterAngle": 5,
+      "Compensated": true,
+      "PointColor": "#ff000000",
+      "Topic": "/points_raw",
+      "Frame": "velodyne"
+    },
+    "transform": {
+      "x": 0,
+      "y": 2.1263,
+      "z": -0.4,
+      "pitch": 0,
+      "yaw": 0,
+      "roll": 0
+    }
+  },
+  
